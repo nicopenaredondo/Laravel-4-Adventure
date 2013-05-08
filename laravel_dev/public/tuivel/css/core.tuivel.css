@@ -1,0 +1,44 @@
+@charset "utf-8";
+html,body,div,span,h1,h2,h3,h4,h5,h6,pre,a,b,u,i,center,ul,li,fieldset,form,label,legend{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}a{text-decoration:none; color: #1779dd;}
+
+*{ margin: 0; padding: 0;}
+body { font-family: Arial, sans-serif; line-height:1 }`
+
+::selection { background: #5c8df1; color:#fff; text-shadow: 0 1px 1px rgba(0,0,0,0.25); }
+::-moz-selection { background: #5c8df1; color:#fff; text-shadow: 0 1px 1px rgba(0,0,0,0.25); }
+
+/* ================================================================================
+------------------------------------- HEADER --------------------------------------
+================================================================================ */
+#header { width: 1000px; height: 80px; margin: 0 auto; position: relative; border-bottom: 2px solid #343434; }
+#header .logo { width: 113px; height: 23px; background: url('../img/logo.png') no-repeat; position: absolute; top: 35px; left: 0px; text-indent: -9999px; cursor: pointer;}
+#header .social { width: 24px; height: 23px; background: url('../img/social-icons.png') no-repeat; text-indent: -9999px; position: absolute; }
+#header .social.facebook { background-position: left 0px; top: 30px; right: 0px; }
+#header .social.twitter { background-position: left -23px; top: 30px; right: 35px; }
+
+/* ================================================================================
+----------------------------------- CONTAINER -------------------------------------
+================================================================================ */
+#container { width: 960px; margin: 0 auto; padding: 100px 0 120px; text-align: center; }
+h1,h2 { font-family: lucida bright, lucida grande, tahoma, verdana, arial, sans-serif; }
+h1 { font-size: 34px; color: #343434; font-weight: bold; margin-bottom: 40px; }
+h2 { font-size: 20px; color: #747474; line-height: 32px; margin-bottom: 30px; }
+input[type="text"] { width: 300px; height: 20px; color: #555; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; border: solid 1px #cdcdcd; background: #fcfcfc; padding: 10px 20px; font-size: 16px; text-align: center; margin-bottom: 20px; }
+input[type="text"]:focus { background: #fff; }
+input[type="submit"] { background: #5c8df1; border: 1px solid #4670c5; padding: 12px 25px; color: #fff; font-size: 16px; font-weight: bold; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; cursor: pointer; }
+input[type="submit"]:hover { background: #6695f5; }
+input[type="submit"]:active { background: #497be1; }
+input.placeholder{ color: #cccccc; }
+
+/* ================================================================================
+------------------------------------- FOOTER --------------------------------------
+================================================================================ */
+#footer { margin: 0 auto; width: 960px; padding: 15px 0; color: #545454; border-top: 1px solid #ececec; font-size: 12px; }
+#footer span.right { float: left; }
+#footer span.right { float: right; }
+
+
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
